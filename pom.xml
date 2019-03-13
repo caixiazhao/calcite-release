@@ -27,7 +27,7 @@ limitations under the License.
   <groupId>org.apache.calcite</groupId>
   <artifactId>calcite</artifactId>
   <packaging>pom</packaging>
-  <version>1.2.0.2.6.3.0-SNAPSHOT</version>
+  <version>1.2.0.2.6.3.120-1</version>
 
   <!-- More project information. -->
   <name>Calcite</name>
@@ -50,7 +50,7 @@ limitations under the License.
     <top.dir>${project.basedir}</top.dir>
     <version.major>1</version.major>
     <version.minor>2</version.minor>
-    <avatica.version>1.8.0.2.6.3.0-SNAPSHOT</avatica.version>
+    <avatica.version>1.8.0.2.6.3.120-1</avatica.version>
   </properties>
 
   <issueManagement>
@@ -111,18 +111,18 @@ limitations under the License.
       <dependency>
         <groupId>org.apache.calcite</groupId>
         <artifactId>calcite-core</artifactId>
-        <version>1.2.0.2.6.3.0-SNAPSHOT</version>
+        <version>1.2.0.2.6.3.120-1</version>
       </dependency>
       <dependency>
         <groupId>org.apache.calcite</groupId>
         <artifactId>calcite-core</artifactId>
         <type>test-jar</type>
-        <version>1.2.0.2.6.3.0-SNAPSHOT</version>
+        <version>1.2.0.2.6.3.120-1</version>
       </dependency>
       <dependency>
         <groupId>org.apache.calcite</groupId>
         <artifactId>calcite-linq4j</artifactId>
-        <version>1.2.0.2.6.3.0-SNAPSHOT</version>
+        <version>1.2.0.2.6.3.120-1</version>
       </dependency>
 
       <!-- Now third-party dependencies, sorted by groupId and artifactId. -->
